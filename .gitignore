@@ -1,3 +1,6 @@
+# LOGS
+.DS_Store
+
 # BLUEPRINTS
 Blueprints/House  Blueprint.pxd
 Blueprints/src
