@@ -2,6 +2,7 @@
 .DS_Store
 
 # BLUEPRINTS
+Blueprints/.DS_Store
 Blueprints/House  Blueprint.pxd
 Blueprints/src
 Blueprints/Report1 ASA.pages
@@ -10,4 +11,4 @@ Blueprints/Report1 ASA.pages
 TESTING
 
 # PLANNER
-.DS_Store
+Planner/.DS_Store
