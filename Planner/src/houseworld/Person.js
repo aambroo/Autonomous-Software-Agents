@@ -7,7 +7,7 @@ class Person extends Observable {
         super()
         this.house = house;             // reference to the house
         this.name = name;               // non-observable
-        this.set('in_room', 'kitchen')  // observable
+        this.set('in_room', 'bedroom')  // observable
         // this.observe( 'in_room', v => console.log(this.name, 'moved to', v) )    // observe
     }
     moveTo (to) {

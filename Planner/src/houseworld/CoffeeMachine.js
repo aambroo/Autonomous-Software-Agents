@@ -2,27 +2,27 @@ const Observable = require('../utils/Observable');
 
 
 
-class Light extends Observable {
+class CoffeeMachine extends Observable {
     constructor (house, name) {
         super()
         this.house = house;         // reference to the house
         this.name = name;           // non-observable
         this.set('status', 'off')   // observable
     }
-    switchOnLight () {
-        this.status = 'on'
+    turnOn () {
+        this.status = 'ready'
         this.house.utilities.electricity.consumption += 1;
         // Include some messages logged on the console!
-        console.log(this.name + ' light turned on')
+        console.log('coffe machine is ready')
     }
-    switchOffLight () {
-        this.status = 'off'
+    turnOff () {
+        this.status = 'not_ready'
         this.house.utilities.electricity.consumption -= 1;
         // Include some messages logged on the console!
-        console.log(this.name + ' light turned off')
+        console.log('coffe machine is off')
     }
 }
 
 
 
-module.exports = Light
+module.exports = CoffeeMachine
