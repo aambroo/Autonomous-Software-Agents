@@ -1,0 +1,1063 @@
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched on
+myAgent          Beliefset: light_on kitchen
+myAgent          Beliefset: not light_off kitchen
+1:06:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+myAgent          Beliefset: not light_on kitchen
+myAgent          Beliefset: light_off kitchen
+1:07:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    moved from living_room to living_room
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:07:15 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:07:30 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:07:45 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:08:00 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      moved from living_room to living_room
+man      moved from entrance_hall to entrance_hall
+man      moved from outside to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      moved from entrance_hall to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:08:15 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:08:30 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:08:45 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:09:00 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:09:15 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:09:30 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:09:45 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:10:00 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:10:15 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:10:30 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:10:45 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:11:00 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:11:15 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:11:30 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:11:45 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:12:00 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:12:15 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:12:30 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:12:45 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:13:00 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:13:15 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:13:30 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:13:45 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:14:00 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:14:15 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:14:30 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:14:45 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    failed moving from outside to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:15:00 woman    failed moving from outside to living_room
+woman    failed moving from outside to kitchen
+woman    moved from entrance_hall to entrance_hall
+woman    moved from outside to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from entrance_hall to entrance_hall
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:15:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:15:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:15:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:16:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:16:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:16:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:16:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:17:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:17:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:17:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:17:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:18:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:18:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:18:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to garage
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:18:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:19:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:19:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:19:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:19:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:20:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:20:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:20:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:20:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:21:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:21:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:21:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:21:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:22:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+woman    moved from bedroom to bedroom
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:22:15 woman    moved from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:22:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:22:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:23:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:23:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:23:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:23:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:24:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:24:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:24:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+1:24:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:00:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+Consumptions for day 2: -199
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:00:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:00:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:00:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:01:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:01:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:01:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:01:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:02:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:02:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:02:30 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:02:45 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:03:00 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
+2:03:15 woman    failed moving from living_room to living_room
+woman    moved from kitchen to kitchen
+woman    failed moving from kitchen to entrance_hall
+woman    failed moving from kitchen to outside
+man      failed moving from bedroom to entrance_hall
+man      failed moving from bedroom to outside
+kitchen light turned off
+woman    moved from living_room to living_room
+man      failed moving from bedroom to entrance_hall
+man      moved from living_room to living_room
+man      moved from bedroom to bedroom
+myAgent>SenseLightsIntention#1   sense: light kitchen switched off
