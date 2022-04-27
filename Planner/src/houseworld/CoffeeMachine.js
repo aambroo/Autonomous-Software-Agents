@@ -17,7 +17,7 @@ class CoffeeMachine extends Observable {
     }
     turnOff () {
         this.status = 'not_ready'
-        this.house.utilities.electricity.consumption -= 1;
+        this.house.utilities.electricity.consumption -= 0;//1;
         // Include some messages logged on the console!
         console.log('coffe machine is off')
     }

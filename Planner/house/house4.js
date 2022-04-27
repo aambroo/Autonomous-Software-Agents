@@ -53,6 +53,7 @@ class House {
                 floor: 'ground'},
         }
         this.devices = {
+            //lights
             kitchen_light: new Light(this, 'kitchen'),
             living_room_light: new Light(this, 'living_room'),
             garage_light: new Light(this, 'garage'), 
@@ -83,38 +84,52 @@ myAgent.postSubGoal( new SenseLightsGoal( [house.devices.kitchen_light, house.de
 // Simulated Daily/Weekly schedule
 Clock.global.observe('mm', (mm) => {
     var time = Clock.global
-    if (time.hh==6 && time.mm==30)
-        house.devices.kitchen_light.switchOnLight()     // lights turn on
+    if (time.hh==6 && time.mm==30) {
+        house.devices.kitchen_light.switchOnLight()         // lights turn on
+        house.devices.living_room_light.switchOnLight()     // lights turn on
+        house.devices.coffee_machine.turnOn()               // turn on coffee machine
         house.people.woman.moveTo('living_room')
         house.people.woman.moveTo('kitchen')
+        house.devices.coffee_machine.turnOff()               // turn off coffee machine
         //house.devices.coffee_machine.turnOn()
-        if (time.hh==7 && time.mm==0)
+    }
+    if (time.hh==7 && time.mm==0) {
         house.people.woman.moveTo('living_room')
         house.people.woman.moveTo('entrance_hall')
-        house.people.woman.moveTo('outside')            //woman goes to work
-        if (time.hh==8 && time.mm==0)
+        house.people.woman.moveTo('outside')
+    }
+    if (time.hh==8 && time.mm==0) {
+        house.devices.coffee_machine.turnOn()               // turn off coffee machine
         house.people.man.moveTo('living_room')
         house.people.man.moveTo('entrance_hall')
         house.people.man.moveTo('outside')              //man goes to work
         house.devices.kitchen_light.switchOffLight()    // lights turn off
+        house.devices.living_room_light.switchOffLight()    // lights turn off
         // house.devices.car['in_garage'] = false
         // house.devices.car['charging'] = false
-    if (time.hh==15 && time.mm==0)
+    }
+    if (time.hh==15 && time.mm==0){
         house.people.woman.moveTo('entrance_hall')
-        house.people.woman.moveTo('living_room')        //woman gets back from work
-    if (time.hh==18 && time.mm==30)
+        house.people.woman.moveTo('living_room')
+    }        //woman gets back from work
+    if (time.hh==18 && time.mm==30){
         house.people.man.moveTo('garage')
         house.people.man.moveTo('entrance_hall')
         house.people.man.moveTo('living_room')
         // house.devices.car['in_garage'] = true
         // house.chargeCar()
         // house.people.man.in_room = 'living_room'
-    if (time.hh==22 && time.mm==00)
+    }
+    if (time.hh==22 && time.mm==00){
         house.people.woman.moveTo('bedroom')
         house.people.man.moveTo('bedroom')
+    }
     if (time.hh==00 && time.mm==0)
         console.log('Consumptions for day', time.dd + ':', house.utilities.electricity['consumption'])
 })
 
 // Start clock
 Clock.startTimer()
+
+
+//allLightsOff()
