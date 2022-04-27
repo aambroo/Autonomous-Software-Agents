@@ -29,7 +29,7 @@ class House {
                 floor: 'ground' },
             entrance_hall: { 
                 name: 'entrance_hall', 
-                doors_to: ['living_room', 'washroom', 'outside'],
+                doors_to: ['living_room', 'washroom', 'garage','outside'],
                 floor: 'ground' },
             garage: { 
                 name: 'garage',
@@ -91,7 +91,6 @@ Clock.global.observe('mm', (mm) => {
         house.people.woman.moveTo('living_room')
         house.people.woman.moveTo('kitchen')
         house.devices.coffee_machine.turnOff()               // turn off coffee machine
-        //house.devices.coffee_machine.turnOn()
     }
     if (time.hh==7 && time.mm==0) {
         house.people.woman.moveTo('living_room')
@@ -99,23 +98,30 @@ Clock.global.observe('mm', (mm) => {
         house.people.woman.moveTo('outside')
     }
     if (time.hh==8 && time.mm==0) {
-        house.devices.coffee_machine.turnOn()               // turn off coffee machine
+        house.devices.coffee_machine.turnOn()               // turn on coffee machine
+        house.devices.garage_light.switchOnLight()          // switch on garage light
         house.people.man.moveTo('living_room')
         house.people.man.moveTo('entrance_hall')
-        house.people.man.moveTo('outside')              //man goes to work
-        house.devices.kitchen_light.switchOffLight()    // lights turn off
-        house.devices.living_room_light.switchOffLight()    // lights turn off
+        house.people.man.moveTo('garage')
+        house.people.man.moveTo('outside')                  // man goes to work
+        house.devices.coffee_machine.turnOff()              // turn off coffee machine
+        house.devices.kitchen_light.switchOffLight()        // switch off light
+        house.devices.living_room_light.switchOffLight()    // switch off light
+        house.devices.garage_light.switchOffLight()         // switch off light
         // house.devices.car['in_garage'] = false
         // house.devices.car['charging'] = false
     }
     if (time.hh==15 && time.mm==0){
-        house.people.woman.moveTo('entrance_hall')
+        house.people.woman.moveTo('entrance_hall')          // woman gets back from work
         house.people.woman.moveTo('living_room')
-    }        //woman gets back from work
+    }
     if (time.hh==18 && time.mm==30){
+        house.devices.garage_light.switchOnLight()
         house.people.man.moveTo('garage')
         house.people.man.moveTo('entrance_hall')
         house.people.man.moveTo('living_room')
+        house.devices.garage_light.switchOffLight()
+        allLightsOff()
         // house.devices.car['in_garage'] = true
         // house.chargeCar()
         // house.people.man.in_room = 'living_room'
@@ -132,4 +138,13 @@ Clock.global.observe('mm', (mm) => {
 Clock.startTimer()
 
 
-//allLightsOff()
+/**
+ * Turns off all lights
+ */
+function allLightsOff() {
+    for (const device in house.devices) {
+        if (device.substring(device.length -5)=='light') {
+            house.devices[device].switchOffLight()
+        }
+    }
+}
