@@ -35,12 +35,11 @@ The code is structured as follows:
 
 Each and every one of the abovementioned devices, however, are defined in separate classes placed in the [`houseworld`](../src/houseworld/) directory.
 
-The [`HouseWorld`](HouseWorld.js) file, specifies how people move around the house as well as how the alarm turns on and off on a weekly basis. To properly understand the nature of the manner in which actions are modeled please refer to Section 4 (*Residents*) of the [Report](../../Blueprints/Report1%20ASA.pdf).
 
 ---
 
 ## 🗓 Weekly Schedule
-We simulate a weekly schedule with **fixed** actions based on time and dayin the format `(dd:hh:mm)`. Time simulation is managed by the [Clock Class](../src/utils/Clock.js) which has also been slightly modified with respect to the original in order to support weekly instead of only daily scheduling. \
+We simulate a weekly schedule with **fixed** actions based on time and dayin the format `(dd:hh:mm)`. Time simulation is managed by the [Clock Class](../src/utils/Clock.js) which has also been slightly modified with respect to the original so as to also support **weekly** scheduling. \
 Actions are designed for moving residents around the house, to compute smart devices consumption, etc. *Table1* shows the main actions in use.
 
 ℹ️ Please refer to the *Residents Section* in the [Report](../../Blueprints/Report1%20ASA.pdf) file for further details on why actions are performed in such an order and for insights about future implementations.
@@ -96,7 +95,12 @@ In this recipe of a weekly schedule, a single **smart agent** has been implement
 available at the [MovementSensor](../src/houseworld/MovementSensor.js) file, the light management is insteas available at the [LightManagement](../src/houseworld/LightManagement.js) file.
 
 ## 🚀 Future Development
-Movement sensoring will be exploited for a future development of an **anti-intrusion system**. 
+Movement sensoring will be exploited for a future development of a more sophisticated **anti-intrusion system**. \
+Further developments might also include an improved version of the **heating/cooling** system and an implementation of an autonomous **vacuum cleaner**.
+
+---
+
+*Attachments:*
 
 
 
