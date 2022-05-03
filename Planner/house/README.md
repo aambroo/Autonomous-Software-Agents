@@ -3,7 +3,7 @@
 ## Background
 Deliverable 2 proposes a recipe for the implementation of a Smart House.
 
-The directory is structured as follows:
+The code is structured as follows:
     
     📁 Blueprints
     📂 Planner
@@ -27,11 +27,15 @@ The directory is structured as follows:
       |    📄 Clock.js
       |    📄 Observable.js
 
+[`house`](../house/) directory contains a [`HouseLayout`](HouseLayout.js) file that - intuitively - provides an explanation of the house's layout. Specifically, in this file we define a `House` class to specify:
++ *rooms*
++ *devices* like *lights*, *thermostats*, *appliances*, etc.
++ *residents*, and
++ *anti intrusion system*
 
-The code implementation for house 4 is based on the [`Scenario 4`](../src/houseworld/scenario4.js) file. \
+Each and every one of the abovementioned devices, however, are defined in separate classes placed in the [`houseworld`](../src/houseworld/) directory.
 
-The main modifications made to the original file are:
-+ the House file has been split into two separate files, namely [HouseLayout](HouseLayout.js) and [HouseWorld](HouseWorld.js). Intuitively, the first contains the constructor for the household's *residents*, *devices*, *appliances*, etc. whereas the second only includes the instructions to perform on a weekly-basis.
+The [`HouseWorld`](HouseWorld.js) file, specifies how people move around the house as well as how the alarm turns on and off on a weekly basis. To properly understand the nature of the manner in which actions are modeled please refer to Section 4 (*Residents*) of the [Report](../../Blueprints/Report1%20ASA.pdf).
 
 ---
 
