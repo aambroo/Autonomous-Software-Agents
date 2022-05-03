@@ -1,0 +1,412 @@
+myAgent          Trying to use intention LightManagementIntention to achieve goal LightManagementGoal#0[object Object]
+myAgent          Trying to use intention MovementDetectionIntention to achieve goal MovementDetectionGoal#1[object Object]
+0:06:30 
+coffe machine is ready
+woman in_room bedroom
+woman in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+myAgent          Beliefset: not movement detected in room
+outside light already switched off
+0:06:40 
+woman in_room living_room
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+0:07:00 
+coffe machine is off
+woman in_room living_room
+woman in_room entrance_hall
+woman in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+0:07:30 
+coffe machine is ready
+man in_room bedroom
+man in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+0:07:40 
+man in_room living_room
+man in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+0:08:00 
+coffe machine is off
+ground alarm on
+ground alarm on
+ground alarm on
+man in_room living_room
+man in_room entrance_hall
+man in_room garage
+man in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+0:15:00 
+ground alarm off
+ground alarm off
+ground alarm off
+woman in_room entrance_hall
+woman in_room washroom
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room entrance_hall
+myAgent          Beliefset: someone_in_room
+0:18:00 
+man in_room garage
+man in_room entrance_hall
+man in_room washroom
+man in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room garage
+myAgent          Beliefset: someone_in_room
+0:20:30 
+man in_room kitchen
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent          Beliefset: someone_in_room
+0:21:00 
+man in_room living_room
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+0:22:30 
+ground alarm already on
+man in_room bathroom
+man in_room bedroom
+woman in_room bathroom
+woman in_room bedroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent          Beliefset: someone_in_room
+1:06:30 
+coffe machine is ready
+woman in_room bedroom
+woman in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+1:06:40 
+woman in_room living_room
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+1:07:00 
+coffe machine is off
+woman in_room living_room
+woman in_room entrance_hall
+woman in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+1:07:30 
+coffe machine is ready
+man in_room bedroom
+man in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+1:07:40 
+man in_room living_room
+man in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+1:08:00 
+coffe machine is off
+ground alarm already on
+ground alarm already on
+ground alarm already on
+man in_room living_room
+man in_room entrance_hall
+man in_room garage
+man in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+1:15:00 
+ground alarm off
+ground alarm off
+ground alarm off
+woman in_room entrance_hall
+woman in_room washroom
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room entrance_hall
+myAgent          Beliefset: someone_in_room
+1:18:00 
+man in_room garage
+man in_room entrance_hall
+man in_room washroom
+man in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room garage
+myAgent          Beliefset: someone_in_room
+1:20:30 
+man in_room kitchen
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent          Beliefset: someone_in_room
+1:21:00 
+man in_room living_room
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+1:22:30 
+ground alarm already on
+man in_room bathroom
+man in_room bedroom
+woman in_room bathroom
+woman in_room bedroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent          Beliefset: someone_in_room
+2:06:30 
+coffe machine is ready
+woman in_room bedroom
+woman in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+2:06:40 
+woman in_room living_room
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+2:07:00 
+coffe machine is off
+woman in_room living_room
+woman in_room entrance_hall
+woman in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+2:07:30 
+coffe machine is ready
+man in_room bedroom
+man in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+2:07:40 
+man in_room living_room
+man in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+2:08:00 
+coffe machine is off
+ground alarm already on
+ground alarm already on
+ground alarm already on
+man in_room living_room
+man in_room entrance_hall
+man in_room garage
+man in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+2:15:00 
+ground alarm off
+ground alarm off
+ground alarm off
+woman in_room entrance_hall
+woman in_room washroom
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room entrance_hall
+myAgent          Beliefset: someone_in_room
+2:18:00 
+man in_room garage
+man in_room entrance_hall
+man in_room washroom
+man in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room garage
+myAgent          Beliefset: someone_in_room
+2:20:30 
+man in_room kitchen
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent          Beliefset: someone_in_room
+2:21:00 
+man in_room living_room
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+2:22:30 
+ground alarm already on
+man in_room bathroom
+man in_room bedroom
+woman in_room bathroom
+woman in_room bedroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent          Beliefset: someone_in_room
+3:06:30 
+coffe machine is ready
+woman in_room bedroom
+woman in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+3:06:40 
+woman in_room living_room
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+3:07:00 
+coffe machine is off
+woman in_room living_room
+woman in_room entrance_hall
+woman in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+3:07:30 
+coffe machine is ready
+man in_room bedroom
+man in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+3:07:40 
+man in_room living_room
+man in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+3:08:00 
+coffe machine is off
+ground alarm already on
+ground alarm already on
+ground alarm already on
+man in_room living_room
+man in_room entrance_hall
+man in_room garage
+man in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+3:15:00 
+ground alarm off
+ground alarm off
+ground alarm off
+woman in_room entrance_hall
+woman in_room washroom
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room entrance_hall
+myAgent          Beliefset: someone_in_room
+3:18:00 
+man in_room garage
+man in_room entrance_hall
+man in_room washroom
+man in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room garage
+myAgent          Beliefset: someone_in_room
+3:20:30 
+man in_room kitchen
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent          Beliefset: someone_in_room
+3:21:00 
+man in_room living_room
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+3:22:30 
+ground alarm already on
+man in_room bathroom
+man in_room bedroom
+woman in_room bathroom
+woman in_room bedroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent          Beliefset: someone_in_room
+4:06:30 
+coffe machine is ready
+woman in_room bedroom
+woman in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+4:06:40 
+woman in_room living_room
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+4:07:00 
+coffe machine is off
+woman in_room living_room
+woman in_room entrance_hall
+woman in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+4:07:30 
+coffe machine is ready
+man in_room bedroom
+man in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bedroom
+myAgent          Beliefset: someone_in_room
+4:07:40 
+man in_room living_room
+man in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+4:08:00 
+coffe machine is off
+ground alarm already on
+ground alarm already on
+ground alarm already on
+man in_room living_room
+man in_room entrance_hall
+man in_room garage
+man in_room outside
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+4:15:00 
+ground alarm off
+ground alarm off
+ground alarm off
+woman in_room entrance_hall
+woman in_room washroom
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room entrance_hall
+myAgent          Beliefset: someone_in_room
+4:18:00 
+man in_room garage
+man in_room entrance_hall
+man in_room washroom
+man in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room garage
+myAgent          Beliefset: someone_in_room
+4:20:30 
+man in_room kitchen
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room kitchen
+myAgent          Beliefset: someone_in_room
+4:21:00 
+man in_room living_room
+woman in_room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+4:22:30 
+ground alarm already on
+man in_room bathroom
+man in_room bedroom
+woman in_room bathroom
+woman in_room bedroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent          Beliefset: someone_in_room
+5:09:00 
+coffe machine is ready
+man in_room bathroom
+woman in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+5:09:30 
+man in_room living_room
+man in_room kitchen
+woman in_room living_room
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+5:10:00 
+coffe machine is off
+6:09:00 
+coffe machine is ready
+man in_room bathroom
+woman in_room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent>MovementDetectionIntention#1     sense: someone in room bathroom
+myAgent          Beliefset: someone_in_room
+6:09:30 
+man in_room living_room
+man in_room kitchen
+woman in_room living_room
+woman in_room kitchen
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent>MovementDetectionIntention#1     sense: someone in room living_room
+myAgent          Beliefset: someone_in_room
+6:10:00 
+coffe machine is off

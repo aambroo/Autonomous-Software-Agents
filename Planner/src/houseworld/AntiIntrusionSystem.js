@@ -17,10 +17,10 @@ class AntiIntrusionAlarm extends Observable{
     turnOn(){
         if (!this.status) {
             this.status = true
-            console.log("" + this.floor + " alarm on")
+            console.log(this.floor, "alarm on")
         }
         else{
-            console.log("" + this.floor + " alarm already on")
+            console.log(this.floor, "alarm already on")
         }
         this.start_hh = Clock.global.hh
         this.start_mm = Clock.global.mm
@@ -28,7 +28,7 @@ class AntiIntrusionAlarm extends Observable{
 
     turnOff(){
         if (this.status) {
-            this.computeElecricityConsumption()
+            this.updateConsumption()
             this.status = true
             console.log("" + this.floor + " alarm off")
         }
@@ -56,7 +56,7 @@ class AntiIntrusionAlarm extends Observable{
         }
     }
 
-    computeElecricityConsumption(Clock){
+    updateConsumption(){
         if (this.status){
             let elapsed_h = Clock.global.hh - this.start_hh
             let elapsed_m = 0

@@ -45,7 +45,7 @@ class Clock {
                 else {
                     // extends daily schedule to weekly schedule
                     // mo: 0, tu: 1, ..., su: 6
-                    if(dd<7) {
+                    if(dd<6) {
                         Clock.global.mm = 0
                         Clock.global.hh = 0
                         Clock.global.dd += 1

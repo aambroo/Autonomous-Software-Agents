@@ -35,7 +35,7 @@ class MovementDetectionIntention extends Intention {
                 while (true) {
                     let room = await p.notifyChange('in_room')
                     this.log('sense: someone in room ' + room)
-                    this.agent.beliefs.declare('someone_in_room '+ room)
+                    this.agent.beliefs.declare('someone_in_room', room)
                     for (let r of this.rooms){
                         var in_room = false
                         for (let per of this.residents){
@@ -44,12 +44,12 @@ class MovementDetectionIntention extends Intention {
                             }
                         }
                         if (!in_room){
-                            this.agent.beliefs.undeclare('someone_in_room '+ r.name) 
+                            this.agent.beliefs.undeclare('movement detected in room', r.name) 
                         }
                     }
                 }
             });
-
+            
             detectionGoal.push(detectionGoalPromise)
         }
         yield Promise.all(detectionGoal)

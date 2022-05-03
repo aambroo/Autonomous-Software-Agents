@@ -34,7 +34,7 @@ class HeatPump extends Observable{
         }
     }
 
-    computeElecricityConsumption(Clock){
+    updateConsumption(Clock){
         if (this.status){
             let elapsed_h = Clock.global.hh - this.start_hh
             let elapsed_m = 0
