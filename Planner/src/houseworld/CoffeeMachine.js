@@ -7,7 +7,7 @@ class CoffeeMachine extends Observable {
         super()
         this.house = house;         // reference to the house
         this.name = name;           // non-observable
-        this.set('status', 'off')   // observable
+        this.set('status', false)   // observable
     }
     turnOn () {
         this.status = 'ready'

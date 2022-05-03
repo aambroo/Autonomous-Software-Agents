@@ -36,16 +36,25 @@ class Clock {
             var {dd, hh, mm} = Clock.global
             
             if(mm<60-15)
-                Clock.global.mm += 15
+                Clock.global.mm += 10
             else {
                 if(hh<24) {
                     Clock.global.hh += 1 // increased hh but mm still 45
                     Clock.global.mm = 0 // however, observers are handled as microtask so at the time they are called everything will be sync
                 }
                 else {
-                    Clock.global.mm = 0
-                    Clock.global.hh = 0
-                    Clock.global.dd += 1
+                    // extends daily schedule to weekly schedule
+                    // mo: 0, tu: 1, ..., su: 6
+                    if(dd<7) {
+                        Clock.global.mm = 0
+                        Clock.global.hh = 0
+                        Clock.global.dd += 1
+                    }
+                    else {
+                        Clock.global.mm = 0
+                        Clock.global.hh = 0
+                        Clock.global.dd = 0
+                    }
                 }
             }
             
