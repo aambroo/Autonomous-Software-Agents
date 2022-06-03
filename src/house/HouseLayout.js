@@ -1,9 +1,9 @@
-const Person = require('../src/houseworld/Person')
-const Room = require('../src/houseworld/Room')
-const Light = require('../src/houseworld/Light')
-const CoffeeMachine = require('../src/houseworld/CoffeeMachine')
-const HeatPump = require('../src/houseworld/HeatPump.js')
-const AntiIntrusionAlarm = require('../src/houseworld/AntiIntrusionSystem.js')
+const Person = require('../houseworld/Person')
+const Room = require('../houseworld/Room')
+const Light = require('../houseworld/Light')
+const CoffeeMachine = require('../houseworld/CoffeeMachine')
+const HeatPump = require('../houseworld/HeatPump.js')
+const AntiIntrusionAlarm = require('../houseworld/AntiIntrusionSystem.js')
 
 
 
@@ -60,9 +60,11 @@ class House {
 
         this.people.man.observe('in_room', (v, k) => {
             console.log('man in_room', v)
+            // TODO: comunicare al planner che la stanza si è sporcata con una certa percentuale
         })
         this.people.woman.observe('in_room', (v, k) => {
             console.log('woman in_room', v)
+            // TODO: comunicare al planner che la stanza si è sporcata con una certa percentuale
         })
         
         this.utilities = {

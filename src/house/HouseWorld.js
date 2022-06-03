@@ -1,8 +1,8 @@
-const Clock =  require('../src/utils/Clock.js')
-const Agent = require('../src/bdi/Agent.js')
-const House = require('../house/HouseLayout')
-const { LightManagementGoal, LightManagementIntention } = require('../src/houseworld/LightManagement.js')
-const { MovementDetectionGoal, MovementDetectionIntention } = require('../src/houseworld/MovementSensor')
+const Clock =  require('../utils/Clock.js')
+const Agent = require('../bdi/Agent.js')
+const House = require('./HouseLayout')
+const { LightManagementGoal, LightManagementIntention } = require('../houseworld/LightManagement.js')
+const { MovementDetectionGoal, MovementDetectionIntention } = require('../houseworld/MovementSensor')
 
 
 // class House {
