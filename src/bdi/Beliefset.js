@@ -7,7 +7,7 @@ class Beliefset extends Observable { // Implementation based on Observable
 
 
     #objectsMap;
-    
+
     constructor () {
         super ({})
         this.#objectsMap = {}
@@ -43,7 +43,7 @@ class Beliefset extends Observable { // Implementation based on Observable
     }
 
     /**
-     * 
+     *
      * @param {String} fact A fact is composed by a predicate and arguments e.g. 'person_in_room bob kitchen'
      * @param {boolean} value Fact status, true or false. Default value is true
      * @returns {boolean} true if changed otherwise false
@@ -52,15 +52,15 @@ class Beliefset extends Observable { // Implementation based on Observable
 
         if (!(typeof fact === 'string'))
             throw('String expected, got ' + typeof fact + ': ' + fact)
-        if (fact.split(' ')[0] == 'not')
+        if (fact.split(' ')[0] === 'not')
             throw('Fact expected, got a negative literal: ' + fact)
 
         var changed = this.set(fact, value)
-        
+
         if ( changed )
             for (let obj of fact.split(' ').splice(1))
                 this.addObject(obj)
-        
+
         return changed
     }
 
@@ -70,16 +70,16 @@ class Beliefset extends Observable { // Implementation based on Observable
      * @return {Array<String>}    Return an Array of String literals (possibly negated facts) e.g. 'light_on kitchen_light' or 'not light_on kitchen_light'
      */
     get literals () {
-        return this.entries.map( ([fact, value]) => (value?fact:'not '+fact) )
+        return this.entries.map( ([fact, value]) => (value?fact:'not ('+fact+')') )
     }
 
     /**
-     * 
-     * @param {String} literal Possibly negated fact, e.g. 'not light_on'
+     *
+     * @param literals
      */
     apply (...literals) {
         for ( let literal of literals ) {
-            var not = literal.split(' ')[0] == 'not'
+            var not = literal.split(' ')[0] === 'not'
             var fact = (not?literal.split(' ').splice(1).join(' '):literal)
             this.declare(fact, !not)
         }
@@ -87,23 +87,23 @@ class Beliefset extends Observable { // Implementation based on Observable
 
     /**
      * Closed World assumption; if i don't know about something then it is false!
-     * 
+     *
      * @param  {...String} literals Iterable of literals; intended as a conjunction of literals
      * @returns {boolean} true if verified, otherwise false
      */
     check (...literals) {
         for ( let literal of literals ) {
-            let not = literal.split(' ')[0] == 'not'
+            let not = literal.split(' ')[0] === 'not'
             let fact = (not?literal.split(' ').splice(1).join(' '):literal)
-            
+
             if ( this[fact] )
                 if ( not )
                     return false;
                 else
-                    continue;
+
             else // Closed World assumption; if i don't know about something then it is false
                 if ( not )
-                    continue;
+
                 else
                     return false;
         }

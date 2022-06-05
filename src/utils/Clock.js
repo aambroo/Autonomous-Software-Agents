@@ -1,11 +1,11 @@
-const Observable =  require('./Observable')
-
-
+const Observable =  require('./Observable');
+const NumsToDays = require('./NumsToDays');
+const readline = require('readline');
 
 /**
  * @static {global} is the global time
  * @static {startTimer()} method start the timer loop
- * 
+ *
  * Note that mm, hh, and dd are updated one at a time!
  * However, Observable handle observer callbacks in microtask queues, so that,
  * at the time observers are actually called, both mm, hh, and dd should all been up-to-date!
@@ -13,17 +13,18 @@ const Observable =  require('./Observable')
 class Clock {
 
     /** @type {Observable} {dd, hh, mm} */
-    static global = new Observable( {dd: 0, hh: 0, mm: 0} )
+    static global = new Observable({dd: 0, hh: 0, mm: 0});
 
     static format() {
-        var time = Clock.global
-        return '' + time.dd + ':' + (time.hh<10?'0':'')+time.hh + ':' + (time.mm==0?'00':time.mm)
+        var time = Clock.global;
+        let day = Object.keys(NumsToDays).find(k => NumsToDays[k] === time.dd);
+        return '' + day + ' ' + (time.hh < 10 ? '0' : '') + time.hh + ':' + (time.mm < 10 ? '0' : '') + time.mm;
     }
 
-    static #start = true
+    static #start = true;
 
     static async stopTimer() {
-        Clock.#start = false
+        Clock.#start = false;
     }
 
     static async startTimer() {
@@ -31,42 +32,33 @@ class Clock {
         Clock.#start = true
 
         while(Clock.#start) {
-            await new Promise( res => setTimeout(res, 50))
-            
-            var {dd, hh, mm} = Clock.global
-            
-            if(mm<60-15)
-                Clock.global.mm += 10
+            await new Promise(res => setTimeout(res, 50))
+
+            var {dd, hh, mm} = Clock.global;
+
+            if (mm < 60)
+                Clock.global.mm += 5;
             else {
-                if(hh<24) {
-                    Clock.global.hh += 1 // increased hh but mm still 45
-                    Clock.global.mm = 0 // however, observers are handled as microtask so at the time they are called everything will be sync
+                if (hh < 23) {
+                    Clock.global.hh += 1; // increased hh but mm still 45
+                    Clock.global.mm = 0; // however, observers are handled as microtask so at the time they are called everything will be sync
                 }
                 else {
-                    // extends daily schedule to weekly schedule
-                    // mo: 0, tu: 1, ..., su: 6
-                    if(dd<6) {
-                        Clock.global.mm = 0
-                        Clock.global.hh = 0
-                        Clock.global.dd += 1
-                    }
-                    else {
-                        Clock.global.mm = 0
-                        Clock.global.hh = 0
-                        Clock.global.dd = 0
-                    }
+                    Clock.global.mm = 0;
+                    Clock.global.hh = 0;
+                    Clock.global.dd += 1;
                 }
             }
-            
-            // Here, time is logged immediately before any other observable gets updated!
-            process.stdout.clearLine(0);
-            process.stdout.cursorTo(0);
-            process.stdout.write( Clock.format() + '\t');
+
+            if (dd < 7) {
+                // Here, time is logged immediately before any other observable gets updated!
+                readline.cursorTo(process.stdout, 0);
+                process.stdout.write(Clock.format() + '\t');
+            }
+            else
+                readline.cursorTo(process.stdout, 0);
         }
     }
-
 }
-
-
 
 module.exports = Clock
