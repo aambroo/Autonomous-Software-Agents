@@ -75,7 +75,7 @@ class Beliefset extends Observable { // Implementation based on Observable
 
     /**
      *
-     * @param literals
+     * @param {String} literal Possibly negated fact, e.g. 'not light_on'
      */
     apply (...literals) {
         for ( let literal of literals ) {
@@ -100,12 +100,12 @@ class Beliefset extends Observable { // Implementation based on Observable
                 if ( not )
                     return false;
                 else
-
+                    continue;
             else // Closed World assumption; if i don't know about something then it is false
-                if ( not )
-
-                else
-                    return false;
+            if ( not )
+                continue;
+            else
+                return false;
         }
 
         return true;

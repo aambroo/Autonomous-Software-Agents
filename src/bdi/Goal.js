@@ -9,12 +9,12 @@ class Goal extends Observable {
 
     constructor (parameters = {}) {
         super({achieved: false})
-        
+
         this.id = nextId++
 
         /** @type {*} parameters */
         this.parameters = parameters
-        
+
         // // [x, y] given parameters=['x','y']
         // if (Array.isArray(parameters))
         //     for (let i = 0; i < parameters.length; i++) {
@@ -32,7 +32,7 @@ class Goal extends Observable {
         j[this.constructor.name + '#'+this.id] = this.parameters
         return j
     }
-      
+
     toString () {
         function replacer(key, mayBeGoal) {
             // Filtering out properties
